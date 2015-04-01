@@ -8,7 +8,7 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.7.x-dev",
+        "symfony/symfony": "2.7.x-dev#ef886548a0b6d1467876a60ef8f2c0f1e5a3ac3c",
         "doctrine/orm": "~2.2,>=2.2.3,<2.5",
         "doctrine/dbal": "<2.5",
         "doctrine/doctrine-bundle": "~1.4",
@@ -47,7 +47,8 @@
         ]
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+    	"notify-on-install": false
     },
     "extra": {
         "symfony-app-dir": "app",

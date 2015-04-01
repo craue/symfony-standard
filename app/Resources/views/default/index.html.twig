@@ -1,5 +1,8 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    Homepage.
+	{{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+		{{ form_widget(form) }}
+		<button type="submit">come on, hit me!</button>
+	{{ form_end(form) }}
 {% endblock %}
